@@ -2,7 +2,11 @@
 Keeps track of your RAM and warns you if running 85% or more in a while loop. Requires psutil.
 '''
 
-import psutil, time, datetime
+import psutil
+import time
+import datetime
+
+
 while True:
 	time.sleep(5)
 	mem = psutil.virtual_memory()
